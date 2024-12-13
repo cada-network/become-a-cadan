@@ -62,3 +62,20 @@ The most common way to create these environments is to use python's `venv` tool.
 that is a lot simpler than `venv`.
 
 [Here is a deep dive into `uv`](https://www.saaspegasus.com/guides/uv-deep-dive/).
+
+## git
+
+Git is a version control program. It is also very good to enable effective collaboration
+on a project. It is the standard way to manage a coding project.
+
+There are many tutorials on git out there, [for example](https://www.freecodecamp.org/news/git-and-github-for-beginners/).
+
+For any further reading, the important concepts are:
+
+- [cloning a repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+to your machine (we use [github](https://github.com) to host our code)
+- committing new code
+- pulling / pushing
+- branching - a common standard which we have adopted is to use github issues
+as a to-do list, and then create a branch to work on this 'issue' before merging
+the new feature onto the 'main' branch using a pull request after a peer review.
