@@ -79,3 +79,31 @@ to your machine (we use [github](https://github.com) to host our code)
 - branching - a common standard which we have adopted is to use github issues
 as a to-do list, and then create a branch to work on this 'issue' before merging
 the new feature onto the 'main' branch using a pull request after a peer review.
+
+## databases
+
+Research projects will require you to save the data you find. For simplicity, this
+can start off in files (e.g. CSVs), but as the size and complexity of your data
+increases, you will want to store it in a database. This will allow you to run
+queries against big datasets rather than reading the whole dataset, as well as
+many other benefits.
+
+There are many types of databases out there, and the best one will depend on your
+usecase, but for tabular data, you will probably want to use a SQL database.
+
+### SQL
+
+SQL (structured query language) is the language that we can use to construct queries
+against our database. [Here](https://www.sqltutorial.org/) is a good tutorial on
+SQL.
+
+### duckdb
+
+[duckdb](https://duckdb.org/) is a simple database solution that runs on your own
+machine that can point to data stored on your machine, or on the cloud. This makes
+it easy to share data across collaborators without having to pay too much (cloud
+storage is cheap, but running programs, such as a database on the cloud is expensive)
+and is why we have used it to store data for a few CADA projects already.
+
+[Here](https://motherduck.com/blog/duckdb-tutorial-for-beginners/) is a bit more
+information about duckdb.
