@@ -70,6 +70,8 @@ on a project. It is the standard way to manage a coding project.
 
 There are many tutorials on git out there, [for example](https://www.freecodecamp.org/news/git-and-github-for-beginners/).
 
+[Learn git with me](https://www.gitme.live/) is also a great interactive learning tool.
+
 For any further reading, the important concepts are:
 
 - [cloning a repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
