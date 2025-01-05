@@ -9,58 +9,25 @@ them. Many projects also involve storing data in databases, transforming many di
 datasets into a common format, visualising datasets, and publishing the results.
 
 Python is good at all of these tasks, and has a shallower learning curve than many
-other languages, so it is the recommended language for CADA projects.
-
-## `uv`
-
-Installing python used to be a little tricky (see the [legacy README](./README_legacy.md)),
-but a tool called `uv` is simplifying a lot of python tooling, including installing
-python itself, so it is recommended to install `uv`.
-
-- [Here is a guide to installing `uv`](https://docs.astral.sh/uv/#getting-started).
-- [Here is a deep dive into `uv`](https://www.saaspegasus.com/guides/uv-deep-dive/).
+other languages, so we are going to use it here.
 
 ## Installing python
 
-`uv python install`
+Installing python can be a little tricky, especially on Windows (this might be a
+common theme), so we have collected some useful resources here.
 
-## `pyproject.toml`
+- [Windows](https://phoenixnap.com/kb/how-to-install-python-3-windows)
+- [Mac OS](https://www.dataquest.io/blog/installing-python-on-mac/) often comes
+with python 2 out of the box, but this is now incredibly out of date now, so we
+want to make sure we are on python 3.
+- Most linux distributions will have python3 as standard, but if you are on an
+ubuntu-based system you can run `sudo apt install python`
 
-This is a file that contains all the information required for a project, including
-any third party dependencies, the compatible versions of python, etc.
+## `pip`
 
-The `uv sync` command will sync your environment with the `pyproject.toml` file
-(including downloading / installing dependencies).
-
-More info can be found [here](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/),
-but I wouldn't look too much into it. It is mostly useful for keeping track of dependencies.
-
-## Virtual environments
-
-Python is installed across our entire machine, but if we want to work on more than
-one python project, then we want to isolate our python environments so that they
-don't interfere with one another.
-Therefore, we create a virtual environment for each project that we are working
-on.
-This will allow us to install packages in this environment only.
-
-`uv` handles virtual environments very easily for each project.
-When you are in a project folder, `uv sync` will get your virtual environment
-synced with the `pyproject.toml` file, including creating a virtual environment.
-
-[Read more here](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/)
-
-### Installing packages
-
-The [python package index (PyPI)](https://pypi.org/) contains thousands of community-developed
-python packages that can be installed and used in our projects.
-To add one as a project dependency, run
-
-`uv add <package name>`
-
-This will install it to our virtual environment and add it to our list of project
-dependencies in our pyproject.toml file, which will allow others working on the
-project to install it as well when they run `uv sync`.
+`pip` allows us to install community written python packages.
+These packages are uploaded to [the python package index (PyPI)](https://pypi.org/).
+Anything on PyPI can be installed using a simple `pip install` command in the terminal.
 
 ## Editors
 
@@ -73,6 +40,21 @@ It is entirely your choice, but some recommendations are:
 - [VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 - [Pycharm](https://www.jetbrains.com/pycharm/) - probably more suited to complete
 python beginners.
+
+## Virtual environments
+
+Python is installed across our entire machine, but if we want to work on more than
+one python project, then we want to isolate our python environments so that they
+don't interfere with one another.
+Therefore, we create a virtual environment for each project that we are working
+on.
+This will allow us to install packages in this environment only.
+
+### `venv`
+
+The most common way to create these environments is to use python's `venv` tool.
+
+[Here is a deeper dive into `venv`](https://realpython.com/python-virtual-environments-a-primer/).
 
 ## git
 
