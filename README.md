@@ -138,6 +138,22 @@ Each cloud platform has their own offering for databases bigger than this.
 as other options such as [snowflake](https://www.snowflake.com/en/data-cloud/workloads/data-warehouse)
 and [redshift](https://aws.amazon.com/redshift/) can get very expensive very quickly.
 
+## Web scraping
+
+Web scraping is a way to collect data from websites.
+The [requests](https://realpython.com/python-requests/) library is how we download
+data from websites and from REST APIs to use in python.
+
+HTML websites can be parsed using [beautiful soup](https://www.scrapingbee.com/blog/python-web-scraping-beautiful-soup/).
+A bit of understanding of HTML elements and CSS selectors will help use beautiful
+soup.
+
+Requests works well for static and basic websites, but for more complex pages,
+or filling / submitting forms, use [selenium](https://www.geeksforgeeks.org/selenium-python-tutorial/).
+
+[John Watson Rooney](https://www.youtube.com/@JohnWatsonRooney) has a brilliant
+youtube channel for content on web scraping.
+
 ## dataframes
 
 Dataframe libraries are useful for applying powerful transformations to datasets.
