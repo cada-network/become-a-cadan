@@ -175,3 +175,8 @@ Running [`uv run --with=ipython ipython`](https://ipython.org/) gives a more int
 [jupyter notebooks](https://www.datacamp.com/tutorial/tutorial-jupyter-notebook)
 go a step further and give a full notebook environment to run code.
 `uv run --with=jupyter jupyter-notebook`
+
+## Visualising / plotting
+
+There are many plotting libraries in python. Many are not great, but [plotly express](https://www.datacamp.com/tutorial/python-plotly-express-tutorial)
+is a decent library that creates interactive charts with simple but powerful syntax.
