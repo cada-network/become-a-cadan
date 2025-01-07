@@ -123,3 +123,17 @@ and is why we have used it to store data for a few CADA projects already.
 
 [Here](https://motherduck.com/blog/duckdb-tutorial-for-beginners/) is a bit more
 information about duckdb.
+
+#### motherduck
+
+[motherduck](https://motherduck.com/) provides an option to run `duckdb` on the
+cloud at a reasonable cost. It is useful for our size of project where we don't
+have 'huge' (100+ GB) amounts of data, but would benefit from sharing the database
+rather than just the files.
+
+### 'big' data
+
+Each cloud platform has their own offering for databases bigger than this.
+[Google bigquery](https://cloud.google.com/bigquery) is probably the best value
+as other options such as [snowflake](https://www.snowflake.com/en/data-cloud/workloads/data-warehouse)
+and [redshift](https://aws.amazon.com/redshift/) can get very expensive very quickly.
