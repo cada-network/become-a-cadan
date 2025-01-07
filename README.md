@@ -137,3 +137,12 @@ Each cloud platform has their own offering for databases bigger than this.
 [Google bigquery](https://cloud.google.com/bigquery) is probably the best value
 as other options such as [snowflake](https://www.snowflake.com/en/data-cloud/workloads/data-warehouse)
 and [redshift](https://aws.amazon.com/redshift/) can get very expensive very quickly.
+
+## dataframes
+
+Dataframe libraries are useful for applying powerful transformations to datasets.
+
+[pandas](https://pandas.pydata.org/docs/user_guide/10min.html) is the most commonly-used
+dataframe library, but [polars](https://docs.pola.rs/user-guide/getting-started/)
+is a modern library that is easier to use (especially for beginners) and faster.
+Therefore, we would recommend using polars in CADA projects.
