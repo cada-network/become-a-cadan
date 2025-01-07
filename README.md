@@ -11,6 +11,9 @@ datasets into a common format, visualising datasets, and publishing the results.
 Python is good at all of these tasks, and has a shallower learning curve than many
 other languages, so it is the recommended language for CADA projects.
 
+If there is a topic that is missing from this document, then do [create an issue](https://github.com/cada-network/become-a-cadan/issues/new/choose)
+detailing what you'd like to learn.
+
 ## `uv`
 
 Installing python used to be a little tricky (see the [legacy README](./README_legacy.md)),
