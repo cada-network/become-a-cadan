@@ -162,3 +162,16 @@ Dataframe libraries are useful for applying powerful transformations to datasets
 dataframe library, but [polars](https://docs.pola.rs/user-guide/getting-started/)
 is a modern library that is easier to use (especially for beginners) and faster.
 Therefore, we would recommend using polars in CADA projects.
+
+## Running code
+
+To run a python script, run the following command `uv run <path to script>`.
+
+Running `uv run python` in the command line takes you to the python ['REPL'](https://www.learnpython.dev/01-introduction/02-requirements/05-vs-code/04-the-repl-in-vscode/)
+where you can run python code directly in the terminal.
+
+Running [`uv run --with=ipython ipython`](https://ipython.org/) gives a more interactive shell.
+
+[jupyter notebooks](https://www.datacamp.com/tutorial/tutorial-jupyter-notebook)
+go a step further and give a full notebook environment to run code.
+`uv run --with=jupyter jupyter-notebook`
