@@ -74,8 +74,6 @@ using a good code editor will make your code writing experience a lot better.
 It is entirely your choice, but some recommendations are:
 
 - [VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
-- [Pycharm](https://www.jetbrains.com/pycharm/) - probably more suited to complete
-python beginners.
 
 ## git
 
