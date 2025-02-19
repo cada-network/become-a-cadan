@@ -27,23 +27,29 @@ python itself, so it is recommended to install `uv`.
 
 `uv python install`
 
-## `pyproject.toml`
+## Python projects
 
-This is a file that contains all the information required for a project, including
-any third party dependencies, the compatible versions of python, etc.
+Any project that you do in python will want to be in its own folder on your machine.
+I find it helpful to store these all in a folder called `code` folder in my home
+directory, as this is always very accessible.
+
+For each individual project, python uses a file called the `pyproject.toml` file
+that contains all the information required for a project. This includes things
+like the name / description of the project, the version(s) of python that it runs on, 
+any third party dependencies, etc.
 
 The `uv sync` command will sync your environment with the `pyproject.toml` file
 (including downloading / installing dependencies).
 
-More info can be found [here](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/),
+More info can be found [here](https://www.youtube.com/watch?v=QMY-OkckDwo),
 but I wouldn't look too much into it. It is mostly useful for keeping track of dependencies.
 
 ## Virtual environments
 
-Python is installed across our entire machine, but if we want to work on more than
-one python project, then we want to isolate our python environments so that they
-don't interfere with one another.
-Therefore, we create a virtual environment for each project that we are working
+When we install python, it is installed across our entire machine. But when we want
+to work on more than one python project, then it is important to isolate our python
+environments so that they don't interfere with one another.
+Therefore, we create what is called a 'virtual environment' for each project that we are working
 on.
 This will allow us to install packages in this environment only.
 
