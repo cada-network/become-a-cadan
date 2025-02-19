@@ -14,7 +14,36 @@ other languages, so it is the recommended language for CADA projects.
 If there is a topic that is missing from this document, then do [create an issue](https://github.com/cada-network/become-a-cadan/issues/new/choose)
 detailing what you'd like to learn.
 
-## `uv`
+## Python basics
+
+If you are a complete beginner, then it's probably worth doing an online course
+as these help you get the hang of python without getting thrown straight into the
+deep end. Some suggestions are:
+
+- [codeacademy](https://www.codecademy.com/learn/learn-python-3)
+- [datacamp](https://www.datacamp.com/courses/intro-to-python-for-data-science)
+
+## Running python
+
+The easiest way to write and run python code as a beginner is using a service such as 
+[google colab](https://colab.google/). This gives an environment where you can write / run
+python code directly from your web browser. This essentially stores and runs your code
+on google machines.
+
+## Installing python
+
+To work with python on your own machine, you need somewhere to write python code, and a way to run
+python code.
+
+### Editors
+
+`python` is the application that converts our python code into something that
+our computer can run.
+You can write python code in loads of programs (even notepad if you fancy), but
+using a good code editor will make your code writing experience a lot better.
+It is entirely your choice, but our recommendation is:
+
+- [VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 
 Installing python used to be a little tricky (see the [legacy README](./README_legacy.md)),
 but a tool called `uv` is simplifying a lot of python tooling, including installing
@@ -23,9 +52,13 @@ python itself, so it is recommended to install `uv`.
 - [Here is a guide to installing `uv`](https://docs.astral.sh/uv/#getting-started).
 - [Here is a deep dive into `uv`](https://www.saaspegasus.com/guides/uv-deep-dive/).
 
-## Installing python
+Run this command in your command line:
 
 `uv python install`
+
+## Python youtube accounts
+
+There is a lot of great content on youtube for learning python 
 
 ## Python projects
 
@@ -71,15 +104,6 @@ This will install it to our virtual environment and add it to our list of projec
 dependencies in our pyproject.toml file, which will allow others working on the
 project to install it as well when they run `uv sync`.
 
-## Editors
-
-`python` is the application that converts our python code into something that
-our computer can run.
-You can write python code in loads of programs (even notepad if you fancy), but
-using a good code editor will make your code writing experience a lot better.
-It is entirely your choice, but some recommendations are:
-
-- [VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 
 ## git
 
