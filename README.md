@@ -56,9 +56,21 @@ Run this command in your command line:
 
 `uv python install`
 
-## Python youtube accounts
+## Python youtube channels
 
-There is a lot of great content on youtube for learning python 
+There is a lot of great content on youtube for learning python. Some great content
+creators are:
+
+- [freeCodeCamp](https://www.youtube.com/@freecodecamp) - all levels
+  - [full beginner course](https://youtu.be/rfscVS0vtbw?si=BBVwGtS-AB0fMB9f)
+  - [python basics](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23)
+  - [data analysis with python](https://www.youtube.com/playlist?list=PLWKjhJtqVAblvI1i46ScbKV2jH1gdL7VQ)
+- [Corey Schafer](https://www.youtube.com/@coreyms) - all levels
+  - [Python Programming Beginner Tutorials](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7)
+- [NeuralNine](https://www.youtube.com/@NeuralNine) - intermediate / advanced
+  - [Python Intermediate Tutorial](https://www.youtube.com/watch?v=2S7Xxz9PhaU&list=PL7yh-TELLS1F3KytMVZRFO-xIo_S2_Jg1)
+- [ArjanCodes](https://www.youtube.com/@ArjanCodes) - intermediate / advanced
+- [Carberra](https://www.youtube.com/@Carberra) - advanced
 
 ## Python projects
 
