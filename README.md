@@ -21,7 +21,7 @@ as these help you get the hang of python without getting thrown straight into th
 deep end. Some suggestions are:
 
 - [codeacademy](https://www.codecademy.com/learn/learn-python-3)
-- [datacamp](https://www.datacamp.com/courses/intro-to-python-for-data-science)#
+- [datacamp](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 - [makersacademy](https://github.com/makersacademy/intro-to-python/blob/main/000_START_HERE.md)
 
 ## Running python
